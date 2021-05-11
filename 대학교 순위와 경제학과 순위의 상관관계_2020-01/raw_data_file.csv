@@ -1,0 +1,17 @@
+Total ranking,Economics,Business,Politics,Modern linguistics
+1,1,1,1,1
+2,3,3,3,5
+3,5,5,5,4
+4,4,4,4,6
+5,2,2,2,2
+6,7,6,NaN,8
+7,8,9,7,NaN
+8,6,7,8,10
+8,9,8,6,7
+10,NaN,NaN,NaN,NaN
+11,NaN,NaN,NaN,NaN
+13,10,NaN,NaN,3
+18,NaN,NaN,NaN,NaN
+15,NaN,NaN,9,NaN
+17,NaN,10,NaN,9
+12,NaN,11,NaN,11
