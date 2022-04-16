@@ -11,4 +11,6 @@
 
 로 이루어져 있습니다.
 
-자료의 소스는 Python Data Science Handbook을 주로 하여 제작하였습니다.
+자료의 소스는 Python Data Science Handbook을 주로 하였고
+
+다양한 위키 독스 텍스트를 참고하여 제작하였습니다.
