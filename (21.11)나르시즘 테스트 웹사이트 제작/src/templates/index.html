@@ -1,0 +1,277 @@
+<html>
+    <head>
+        나의 나르시즘 점수를 확인해보자!<br><br>
+    </head>
+    <body>
+        Narcissistic Personality Inventory (NPI-40) the most widely utilized personality measures for non-clinical levels of the trait narcissism, 
+        developed by Robert Raskin and Howard Terry (1988).<br><br>
+    <center>
+        <br><br><br><br><br><br><br><br>
+        <h1> 설문조사를 진행해 주세요.</h1>
+
+        <!-- <h2> 질문이 맞으면 1, 아니면 2로 답해주세요.</h2> -->
+        
+        <form method="POST", action="{{url_for('prediction')}}">
+        <b>
+        <select class='form-select' , name='q1'>
+            <option selected>1= I have a natural talent for influencing people. 2=I am not good at influencing people.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q2'>
+            <option selected>1=Modesty doesn't become me. 2=I am essentially a modest person.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q3'>
+            <option selected>1=I would do almost anything on a dare. 2=I tend to be a fairly cautious person.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q4'>
+            <option selected>1=When people compliment me I sometimes get embarrassed. 2=I know that I am good because everybody keeps telling me so.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q5'>
+            <option selected>1=The thought of ruling the world frightens the hell out of me. 2=If I ruled the world it would be a better place.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q6'>
+            <option selected>1=I can usually talk my way out of anything. 2=I try to accept the consequences of my behavior.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q7'>
+            <option selected>1=I prefer to blend in with the crowd. 2=I like to be the center of attention.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q8'>
+            <option selected>1=I will be a success. 2=I am not too concerned about success.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q9'>
+            <option selected>1=I am no better or worse than most people. 2=I think I am a special person.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q10'>
+            <option selected>1=I am not sure if I would make a good leader. 2=I see myself as a good leader.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q11'>
+            <option selected>1=I am assertive. 2=I wish I were more assertive.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q12'>
+            <option selected>1=I like to have authority over other people. 2=I don't mind following orders.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q13'>
+            <option selected>1=I find it easy to manipulate people. 2=I don't like it when I find myself manipulating people.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q14'>
+            <option selected>1=I insist upon getting the respect that is due me. 2=I usually get the respect that I deserve.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q15'>
+            <option selected>1=I don't particularly like to show off my body. 2=I like to show off my body.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q16'>
+            <option selected>1=I can read people like a book. 2=People are sometimes hard to understand.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q17'>
+            <option selected>1=If I feel competent I am willing to take responsibility for making decisions. 2=I like to take responsibility for making decisions.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q18'>
+            <option selected>1=I just want to be reasonably happy. 2=I want to amount to something in the eyes of the world.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q19'>
+            <option selected>1=My body is nothing special. 2=I like to look at my body.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q20'>
+            <option selected>1=I try not to be a show off. 2=I will usually show off if I get the chance.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q21'>
+            <option selected>1=I always know what I am doing. 2=Sometimes I am not sure of what I am doing.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q22'>
+            <option selected>1=I sometimes depend on people to get things done. 2=I rarely depend on anyone else to get things done.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q23'>
+            <option selected>1=Sometimes I tell good stories. 2=Everybody likes to hear my stories.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q24'>
+            <option selected>1=I expect a great deal from other people. 2=I like to do things for other people.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q25'>
+            <option selected>1=I will never be satisfied until I get all that I deserve. 2=I take my satisfactions as they come.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q26'>
+            <option selected>1=Compliments embarrass me. 2=I like to be complimented.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q27'>
+            <option selected>1=I have a strong will to power. 2=Power for its own sake doesn't interest me.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q28'>
+            <option selected>1=I don't care about new fads and fashions. 2=I like to start new fads and fashions.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q29'>
+            <option selected>1=I like to look at myself in the mirror. 2=I am not particularly interested in looking at myself in the mirror.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q30'>
+            <option selected>1=I really like to be the center of attention. 2=It makes me uncomfortable to be the center of attention.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q31'>
+            <option selected>1=I can live my life in any way I want to. 2=People can't always live their lives in terms of what they want.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q32'>
+            <option selected>1=Being an authority doesn't mean that much to me. 2=People always seem to recognize my authority.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q33'>
+            <option selected>1=I would prefer to be a leader. 2=It makes little difference to me whether I am a leader or not.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q34'>
+            <option selected>1=I am going to be a great person. 2=I hope I am going to be successful.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q35'>
+            <option selected>1=People sometimes believe what I tell them. 2=I can make anybody believe anything I want them to.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q36'>
+            <option selected>1=I am a born leader. 2=Leadership is a quality that takes a long time to develop.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q37'>
+            <option selected>1=I wish somebody would someday write my biography. 2=I don't like people to pry into my life for any reason.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q38'>
+            <option selected>1=I get upset when people don't notice how I look when I go out in public. 2=I don't mind blending into the crowd when I go out in public.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q39'>
+            <option selected>1=I am more capable than other people. 2=There is a lot that I can learn from other people.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='q40'>
+            <option selected>1=I am much like everybody else. 2=I am an extraordinary person.</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+        <select class='form-select' , name='gender'>
+            <option selected>1=male, 2=female</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+        </select><br><br>
+
+
+        <input type='number', step='1', name='age', placeholder='age'>
+        <br><br>
+        </b>
+
+        <input type='submit' value='go!'/>
+
+        </form>
+    </center>
+        
+    </body>
+    <ref>---- REFERENCES ---- <br>
+        - R. Raskin, H. Terry. A principal-components analysis of the Narcissistic Personality Inventory and further evidence of its construct validity // Journal of Personality and Social Psychology, 1988. 54<br>
+        - Ames, D. R., Rose, P., Anderson, C. P. The NPI-16 as a short measure of narcissism // Journal of Research in Personality, 2006. 40
+    </ref>
+</html>
