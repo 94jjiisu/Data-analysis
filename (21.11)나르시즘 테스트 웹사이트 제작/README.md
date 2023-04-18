@@ -4,7 +4,7 @@ NPI-40은 나르시즘의 정도를 측정하는 심리 테스트로서 데이�
 
 - 머신러닝 모델로 데이터를 학습한 후 Flask App로 자기 진단을 해 볼수 있는 웹 사이트를 제작, 대시보드로 시각화
 - Python Flask, PostgreSQL, ElephantSQL, Catboost, Metabase, Heroku
-- 
+
 PostgreSQL, ElephantSQL, Metabase, Catboost, python Flask 를 사용하여 구현하였습니다.
 
 데이터 출처: https://www.kaggle.com/datasets/lucasgreenwell/narcissistic-personality-inventory-responses
